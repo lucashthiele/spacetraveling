@@ -1,1 +1,30 @@
-// TODO
+.container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.infos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+  span {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--gray-600);
+  }
+
+  svg {
+    width: 20px;
+    height: auto;
+  }
+}
